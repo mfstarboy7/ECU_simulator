@@ -17,6 +17,9 @@ add_executable(ECU_simulator
     src/dtc/DTCManager.cpp
     src/dtc/DTCManager.h
     src/dtc/DTC.h
+    src/can/CANBus.cpp
+    src/can/CANBus.h
+    
 )
 
 add_subdirectory(src/scheduler)
