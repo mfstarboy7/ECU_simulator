@@ -373,6 +373,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.cpp" />
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.h" />
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTC.h" />
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\can\CANBus.cpp" />
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\can\CANBus.h" />
     <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.cpp" />
   </ItemGroup>
   <ItemGroup />
