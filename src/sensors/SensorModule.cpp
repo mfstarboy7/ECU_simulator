@@ -19,10 +19,26 @@ float SensorModule::randFloat(float min, float max) {
     return dist(rng);
 }
 
-int SensorModule::getRPM() {
-    float raw = randFloat(700, 3000);
-    return rpmFilter.apply(raw);
+// ... existing includes ...
+
+// NEW: Setter to update internal state
+void SensorModule::setSimulatedRPM(int rpm) {
+    lastRPM = rpm; 
 }
+
+int SensorModule::getRPM() {
+    // OLD WAY: float raw = randFloat(700, 3000); 
+    // NEW WAY: Just return the value set by the Physics Engine
+    // (Optional: You could add small noise here if you want: + randFloat(-5, 5))
+    return static_cast<int>(lastRPM); 
+}
+
+// Keep getThrottle and getCoolantTemp as they were (random is fine for them for now)
+
+// int SensorModule::getRPM() {
+//     float raw = randFloat(700, 3000);
+//     return rpmFilter.apply(raw);
+// }
 
 float SensorModule::getThrottle() {
     float raw = randFloat(0, 100);

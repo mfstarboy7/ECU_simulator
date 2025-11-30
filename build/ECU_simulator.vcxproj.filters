@@ -30,6 +30,9 @@
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\engine\FuelControl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\engine\EnginePhysics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -37,6 +40,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\can\CANBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\can\CANMessage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

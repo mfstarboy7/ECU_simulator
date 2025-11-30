@@ -4,17 +4,21 @@ class SensorModule {
 public:
     SensorModule();
 
-    int getRPM();            // returns filtered RPM
-    float getThrottle();     // returns filtered throttle position %
-    float getCoolantTemp();  // returns filtered coolant temperature °C
+    int getRPM();            // Returns the stored RPM (with noise)
+    float getThrottle();     
+    float getCoolantTemp();  
+
+    // NEW: Allow the Physics Engine to update the real RPM
+    void setSimulatedRPM(int rpm);
 
 private:
     float randFloat(float min, float max);
 
-    // Last filtered values (for low-pass filtering memory)
+    // Last filtered values
     float lastRPM;
     float lastThrottle;
     float lastCoolant;
 };
-// ✔ Each sensor has its own realistic noise
-// ✔ Low-pass filtering smooths out rapid changes
+// Simulated Sensor Module
+// Provides noisy readings for RPM, Throttle Position, Coolant Temp
+// NEW: Allows external setting of RPM to sync with physics engine
