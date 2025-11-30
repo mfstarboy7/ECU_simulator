@@ -370,7 +370,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\filters\Filter.h" />
     <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\engine\FuelControl.cpp" />
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\engine\FuelControl.h" />
-    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\scheduler\TaskScheduler.cpp" />
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.cpp" />
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.h" />
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTC.h" />
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

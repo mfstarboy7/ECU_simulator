@@ -1,49 +1,63 @@
 #include <iostream>
-#include <thread>
-
-#include "scheduler/TaskScheduler.h"
+#include "scheduler/Scheduler.h"
 #include "sensors/SensorModule.h"
 #include "engine/FuelControl.h"
+#include "dtc/DTCManager.h"
 
 int main() {
+
     SensorModule sensors;
     FuelControl fuel;
-    TaskScheduler scheduler;
+    Scheduler scheduler;
 
-    float rpm = 0;
-    float throttle = 0;
-    float coolant = 0;
-    float fuelCmd = 0;
+    DTCManager dtc;
 
-    // TASK 1: Sensor sampling every 10ms
+// 200ms task — detect faults
+scheduler.addTask([&]() {
+    float coolant = sensors.getCoolantTemp();
+    float throttle = sensors.getThrottle();
+
+    if (coolant > 95)
+        dtc.addFault("P0217", "Engine Overheat");
+
+    if (throttle < 5)
+        dtc.addFault("P0120", "TPS Circuit Low");
+
+}, 200);
+
+scheduler.addTask([&]() {
+    const auto& faults = dtc.getActiveFaults();
+
+    if (!faults.empty()) {
+        std::cout << "Active DTCs:\n";
+        for (const auto& f : faults) {
+            if (f.active)
+                std::cout << "  " << f.code << ": " << f.message << "\n";
+        }
+    }
+}, 1000);
+
+    // 100ms (10Hz): print ECU info
     scheduler.addTask([&]() {
-        rpm = sensors.getRPM();
-        throttle = sensors.getThrottle();
-        coolant = sensors.getCoolantTemp();
-    }, 10);
+        int rpm = sensors.getRPM();
+        float throttle = sensors.getThrottle();
+        float coolant = sensors.getCoolantTemp();
+        float fuelCmd = fuel.calculateFuel(rpm, throttle, coolant);
 
-    // TASK 2: Fuel calculation every 20ms
-    scheduler.addTask([&]() {
-        fuelCmd = fuel.calculateFuel((int)rpm, throttle, coolant);
-    }, 20);
+        std::cout << "RPM: " << rpm
+                  << " | Throttle: " << throttle
+                  << " | Coolant: " << coolant
+                  << " | Fuel: " << fuelCmd << " mg/stroke\n";
 
-    // TASK 3: Print values every 1000ms (1 second)
+    }, 100);
+
+    // 1000ms (1Hz): slower background task
     scheduler.addTask([&]() {
-        std::cout << "ECU Simulation" << std::endl;
-        std::cout << "RPM: " << rpm << std::endl;
-        std::cout << "Throttle: " << throttle << " %" << std::endl;
-        std::cout << "Coolant: " << coolant << " C" << std::endl;
-        std::cout << "Fuel Command: " << fuelCmd << " mg/stroke" << std::endl;
-        std::cout << "-------------------------" << std::endl;
+        std::cout << "[ECU] Heartbeat OK\n";
     }, 1000);
 
-    // MAIN LOOP (runs forever)
-    while (true) {
-        scheduler.run();
-        std::this_thread::sleep_for(std::chrono::milliseconds(1));
-    }
+    std::cout << "ECU Scheduler Started...\n";
+    scheduler.run();
 
     return 0;
 }
-// ✔ Main loop runs the scheduler
-// ✔ Tasks for sensor reading, fuel calculation, and printing status

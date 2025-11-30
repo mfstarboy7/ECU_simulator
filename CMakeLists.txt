@@ -14,6 +14,9 @@ add_executable(ECU_simulator
     src/filters/Filter.h
     src/engine/FuelControl.cpp
     src/engine/FuelControl.h
+    src/dtc/DTCManager.cpp
+    src/dtc/DTCManager.h
+    src/dtc/DTC.h
 )
 
 add_subdirectory(src/scheduler)

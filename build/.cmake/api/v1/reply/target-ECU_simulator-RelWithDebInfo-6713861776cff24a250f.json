@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Debug/ECU_simulator.exe"
+			"path" : "RelWithDebInfo/ECU_simulator.exe"
 		},
 		{
-			"path" : "Debug/ECU_simulator.pdb"
+			"path" : "RelWithDebInfo/ECU_simulator.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -54,7 +54,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++17 -MD"
 				}
 			],
 			"language" : "CXX",
@@ -71,7 +71,8 @@
 				0,
 				1,
 				4,
-				6
+				6,
+				9
 			]
 		}
 	],
@@ -87,7 +88,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -121,7 +122,8 @@
 				0,
 				1,
 				4,
-				6
+				6,
+				9
 			]
 		},
 		{
@@ -130,7 +132,9 @@
 			[
 				2,
 				3,
-				5
+				5,
+				7,
+				8
 			]
 		}
 	],
@@ -170,9 +174,25 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dtc/DTCManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/dtc/DTCManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/dtc/DTC.h",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "src/scheduler/TaskScheduler.cpp",
+			"path" : "src/scheduler/Scheduler.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,4 +1,5 @@
 C:\Users\zahaa\Git\ECU_simulator\src\main.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\main.obj
 C:\Users\zahaa\Git\ECU_simulator\src\sensors\SensorModule.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\SensorModule.obj
 C:\Users\zahaa\Git\ECU_simulator\src\engine\FuelControl.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\FuelControl.obj
-C:\Users\zahaa\Git\ECU_simulator\src\scheduler\TaskScheduler.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\TaskScheduler.obj
+C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\DTCManager.obj
+C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\Scheduler.obj
