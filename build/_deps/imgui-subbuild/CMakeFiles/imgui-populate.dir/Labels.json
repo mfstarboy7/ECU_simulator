@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/047809e8df54aa3c8c4b5defcce017f9/imgui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/baa998d5f1bda0c080f94e2cd756da9e/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/imgui-subbuild/CMakeFiles/d57fca5f0b3fdc9eb6be7187effbced1/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

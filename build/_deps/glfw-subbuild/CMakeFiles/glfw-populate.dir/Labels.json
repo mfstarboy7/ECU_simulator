@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/17ce5c781208333bf9321b6cdd084c36/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/5cb7436a08e2e97b869af33778729e9e/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-subbuild/CMakeFiles/7a109e11251c27876c28964b5b43e8ed/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

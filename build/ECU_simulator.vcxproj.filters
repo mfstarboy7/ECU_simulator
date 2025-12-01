@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\sensors\SensorModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -13,18 +16,42 @@
     <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\memory\FlashMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\can\CANBus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.cpp">
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\src\logging\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\backends\imgui_impl_opengl3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\sensors\SensorModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\filters\Filter.h">
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\Filters\Filter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\engine\FuelControl.h">
@@ -39,10 +66,16 @@
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\memory\FlashMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\can\CANBus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\can\CANMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\zahaa\Git\ECU_simulator\src\logging\Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

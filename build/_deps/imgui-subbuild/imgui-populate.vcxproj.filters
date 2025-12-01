@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\d57fca5f0b3fdc9eb6be7187effbced1\imgui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\baa998d5f1bda0c080f94e2cd756da9e\imgui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\047809e8df54aa3c8c4b5defcce017f9\imgui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F7EE2B45-1285-32B6-A958-D553AD4C4434}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

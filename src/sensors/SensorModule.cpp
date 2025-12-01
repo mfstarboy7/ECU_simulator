@@ -1,5 +1,5 @@
 #include "SensorModule.h"
-#include "../filters/Filter.h"   // <-- Include filtering functions
+#include "../Filters/Filter.h"   // <-- Include filtering functions
 
 #include <random>
 #include <chrono>
@@ -46,6 +46,6 @@ float SensorModule::getThrottle() {
 }
 
 float SensorModule::getCoolantTemp() {
-    float raw = randFloat(70, 105);
+    float raw = randFloat(80, 100);
     return coolantFilter.apply(raw);
 }

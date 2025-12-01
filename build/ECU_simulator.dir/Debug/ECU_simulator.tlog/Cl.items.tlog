@@ -1,6 +1,14 @@
 C:\Users\zahaa\Git\ECU_simulator\src\main.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\main.obj
+C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\Scheduler.obj
 C:\Users\zahaa\Git\ECU_simulator\src\sensors\SensorModule.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\SensorModule.obj
 C:\Users\zahaa\Git\ECU_simulator\src\engine\FuelControl.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\FuelControl.obj
 C:\Users\zahaa\Git\ECU_simulator\src\dtc\DTCManager.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\DTCManager.obj
+C:\Users\zahaa\Git\ECU_simulator\src\memory\FlashMemory.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\FlashMemory.obj
 C:\Users\zahaa\Git\ECU_simulator\src\can\CANBus.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\CANBus.obj
-C:\Users\zahaa\Git\ECU_simulator\src\scheduler\Scheduler.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\Scheduler.obj
+C:\Users\zahaa\Git\ECU_simulator\src\logging\Logger.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\Logger.obj
+C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\imgui.obj
+C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui_draw.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\imgui_draw.obj
+C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui_tables.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\imgui_tables.obj
+C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\imgui_widgets.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\imgui_widgets.obj
+C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\backends\imgui_impl_glfw.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\imgui_impl_glfw.obj
+C:\Users\zahaa\Git\ECU_simulator\build\_deps\imgui-src\backends\imgui_impl_opengl3.cpp;C:\Users\zahaa\Git\ECU_simulator\build\ECU_simulator.dir\Debug\imgui_impl_opengl3.obj

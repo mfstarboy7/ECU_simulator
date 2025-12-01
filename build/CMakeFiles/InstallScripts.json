@@ -2,7 +2,10 @@
 	"InstallScripts" : 
 	[
 		"C:/Users/zahaa/Git/ECU_simulator/build/cmake_install.cmake",
-		"C:/Users/zahaa/Git/ECU_simulator/build/src/scheduler/cmake_install.cmake"
+		"C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-build/cmake_install.cmake",
+		"C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-build/src/cmake_install.cmake",
+		"C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-build/examples/cmake_install.cmake",
+		"C:/Users/zahaa/Git/ECU_simulator/build/_deps/glfw-build/tests/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
