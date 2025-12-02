@@ -115,7 +115,7 @@ The application uses a multi-threaded architecture to simulate the separation be
   I am an embedded systems enthusiast passionate about automotive software architecture.
   This project was built to demonstrate proficiency in:
 
-   • C++ System Design: Object-oriented design with dependency injection.
+   • **C++ System Design**: Object-oriented design with dependency injection.
    
    • **Concurrency**: Thread management (std::thread), std::mutex, and std::atomic for safe data sharing.
    
